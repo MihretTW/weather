@@ -1,5 +1,19 @@
 body {
   background-color: azure;
+  .fasthand-regular {
+    font-family: "Fasthand", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lobster-regular {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+header {
+  border-bottom: 1px solid rgb(26, 27, 28);
+  padding: 10px;
 }
 .weather-app {
   background: white;
@@ -10,14 +24,26 @@ body {
   box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.3);
 }
 input[type="search"] {
-  width: 200px;
-  border-radius: 5px;
-  padding: 5px;
+  width: 300px;
+  border-radius: 8px;
+  padding: 10px 20px;
   margin-bottom: 10px;
+  background-color: azure;
+  font-size: 16px;
 }
 input[type="submit"] {
   width: 100px;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 10px;
+  padding: 8px 15px;
   margin-bottom: 10px;
+  background-color: rgb(88, 215, 196);
+  color: rgb(26, 27, 28);
+  font-size: 18px;
+}
+
+footer {
+  border-top: 1px solid rgb(26, 27, 28);
+  padding: 0 10px;
+  text-align: center;
+  font-weight: 800;
 }
