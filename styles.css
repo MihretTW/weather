@@ -21,23 +21,25 @@ header {
 }
 .strong {
   color: rgb(115, 111, 244);
-  font-size: 22px;
+  font-size: 18px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .weather-app {
   background: white;
   width: 600px;
-  height: 280px;
+  height: 420px;
   margin: 40px auto;
   padding: 30px;
   box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.3);
+}
+.form {
+  margin: 20px;
 }
 input[type="search"] {
   width: 350px;
   border-radius: 8px;
   padding: 10px 20px;
-  margin-bottom: 10px;
   background-color: azure;
   font-size: 16px;
 }
@@ -45,7 +47,7 @@ input[type="submit"] {
   width: 100px;
   border-radius: 10px;
   padding: 8px 15px;
-  margin-bottom: 10px;
+
   background-color: rgb(88, 215, 196);
   color: rgb(26, 27, 28);
   font-size: 18px;
@@ -79,4 +81,33 @@ a {
   font-size: 24px;
   font-weight: 500;
   height: -80px;
+}
+.weather-forecast-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10pz;
+  flex-direction: column;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: rgb(26, 63, 51);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 30px;
+}
+.weather-forecast-temp {
+  text-align: center;
+  color: rgb(115, 111, 244);
+  font-weight: 300;
+  margin: 20px;
+  padding: 5px;
 }
