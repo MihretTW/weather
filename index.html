@@ -13,6 +13,7 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
+  
   <body>
     <div class="weather-app">
       <header>
@@ -35,44 +36,23 @@
               <span id="time"> <span class="strong"></span></span>,
               <span id="description">moderate rain</span>
               <br />
-              Humidity: <span class="strong" id="Humidity"></span>, Wind:
-              <span class="strong" id="speed"></span>
+              Humidity: <span class="strong" id="humidity"></span>, Wind:
+              <span class="strong" id="wind-speed"></span>
             </p>
           </div>
-          <p class="temp-data">
-            <div class="icon" id="icon"></div>
-            <span class="temp" id="temperature"></span>
-            <span class="Celsius">°C</span>
-          </p>
-        </div>
-        <div class="weather-forecast-container">
-        <div class="weather-forecast">
-          <div class="weather-forecast-date"><strong>The</strong></div>
-          <div class="weather-forecast-icon">⛅️</div>
-          <div class="weather-forecast-temp"> <strong>15°    20°</strong> </div>
-        </div>
-        <div class="weather-forecast">
-          <div class="weather-forecast-date"><strong>Wed</strong></div>
-          <div class="weather-forecast-icon">⛅️</div>
-          <div class="weather-forecast-temp"> <strong>15°    20°</strong> </div>
-        </div>
-        <div class="weather-forecast">
-          <div class="weather-forecast-date"><strong>Thu</strong></div>
-          <div class="weather-forecast-icon">⛅️</div>
-          <div class="weather-forecast-temp"> <strong>15°    20°</strong> </div>
-        </div>
-        <div class="weather-forecast">
-          <div class="weather-forecast-date"><strong>Fri</strong></div>
-          <div class="weather-forecast-icon">⛅️</div>
-          <div class="weather-forecast-temp"> <strong>15°    20°</strong> </div>
-        </div>
-         <div class="weather-forecast">
-          <div class="weather-forecast-date"><strong>Sat</strong></div>
-          <div class="weather-forecast-icon">⛅️</div>
-          <div class="weather-forecast-temp"> <strong>15°    20°</strong> </div>
-        </div>
-        </div>
+          <div class="temp-data">
+  <div class="icon" id="icon">
+    <img src="icon_url.png" alt="Weather Icon" />
+  </div>
+  <span class="temp" id="temperature">8</span>
+  <span class="Celsius">°C</span>
+</div>
+
+   
       </main>
+       <div class="weather-forecast-container ">
+      <div class="weather-forecast" id="forecast"></div>
+    </div>
       <footer>
         This project was coded by
         <a href="#">Mihret Tadesse</a> and is
