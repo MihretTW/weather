@@ -1,21 +1,17 @@
 body {
-  background: linear-gradient(
-    135deg,
-    #9be7ff 0%,
-    #ffffff 100%
-  ); /* Soft pastel blue gradient */
+  background: linear-gradient(135deg, #9be7ff 20%, #ffffff 80%);
   font-family: "Roboto", sans-serif;
-  color: #333333; /* Darker text for better readability */
+  color: #333333;
   margin: 0;
   padding: 0;
 }
 
 header {
-  border-bottom: 2px solid #d3e0ea; /* Soft border with a light grayish blue */
-  padding: 25px 0;
+  border-bottom: 2px solid #d3e0ea;
+  padding: 30px 0;
   text-align: center;
-  background-color: #d3e8ff; /* Light and calming background for the header */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the header */
+  background-color: #d3e8ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .data {
@@ -26,9 +22,9 @@ header {
 }
 
 .strong {
-  color: #4e6dff; /* Slightly toned down blue for emphasis */
+  color: #4e6dff;
   font-size: 20px;
-  font-weight: 500; /* Less bold for a softer look */
+  font-weight: 500;
 }
 
 .weather-app {
@@ -38,7 +34,7 @@ header {
   margin: 40px auto;
   padding: 35px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .form {
@@ -52,22 +48,22 @@ input[type="search"] {
   width: 380px;
   padding: 20px 30px;
   border-radius: 12px;
-  background-color: #f7f8fa; /* Soft background for inputs */
+  background-color: #f7f8fa;
   border: 1px solid #dfe3e8;
   font-size: 16px;
   transition: 0.3s ease;
 }
 
 input[type="search"]:focus {
-  border-color: #527cf1; /* Blue border on focus */
-  box-shadow: 0 0 8px rgba(78, 109, 255, 0.5); /* Soft glowing effect on focus */
+  border-color: #527cf1;
+  box-shadow: 0 0 8px rgba(78, 109, 255, 0.5);
 }
 
 input[type="submit"] {
   width: 140px;
   padding: 12px 18px;
   border-radius: 12px;
-  background-color: #56ccf2; /* Light blue button */
+  background-color: #56ccf2;
   color: #ffffff;
   border: none;
   font-size: 16px;
@@ -76,7 +72,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #4e9dce; /* Slightly darker blue on hover */
+  background-color: #4e9dce;
 }
 
 footer {
@@ -84,12 +80,12 @@ footer {
   padding: 20px 0;
   text-align: center;
   font-weight: 600;
-  background-color: #c9e5ee; /* Same light background as header */
+  background-color: #c9e5ee;
   margin-top: 40px;
 }
 
 a {
-  color: #4e6dff; /* Soft blue for links */
+  color: #4e6dff;
   text-decoration: none;
 }
 
@@ -106,13 +102,13 @@ a:hover {
 .temp {
   font-size: 88px;
   line-height: 1;
-  font-weight: 500; /* Lighter font weight for a less bold effect */
-  color: #4e6dff; /* Soft blue for temperature */
+  font-weight: 500;
+  color: #4e6dff;
 }
 
 .Celsius {
   font-size: 28px;
-  color: #56ccf2; /* Light blue for Celsius */
+  color: #56ccf2;
   vertical-align: middle;
 }
 
@@ -121,7 +117,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   font-size: 50px;
-  color: #56ccf2; /* Light blue for weather icons */
+  color: #56ccf2;
 }
 
 .weather-forecast-container {
@@ -133,7 +129,7 @@ a:hover {
   justify-content: space-between;
   margin-top: 15px;
   padding: 15px;
-  background-color: #c9e5ee; /* Very light grayish blue */
+  background-color: #c9e5ee;
   border-radius: 12px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
@@ -141,19 +137,19 @@ a:hover {
 .weather-forecast-day {
   font-size: 20px;
   text-align: center;
-  color: #4e6dff; /* Soft blue for day */
+  color: #4e6dff;
   margin: 5px;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 .weather-forecast-day:hover {
-  color: #56ccf2; /* Slightly lighter blue on hover */
+  color: #56ccf2;
 }
 
 .weather-forecast-date {
   text-align: center;
-  color: #777777; /* Soft gray date */
+  color: #777777;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 12px;
@@ -161,7 +157,7 @@ a:hover {
 
 .weather-forecast-temperatures {
   text-align: center;
-  color: #4e6dff; /* Soft blue temperatures */
+  color: #4e6dff;
   margin-top: 12px;
   display: flex;
   justify-content: center;
@@ -172,5 +168,5 @@ a:hover {
   height: 48px;
   display: block;
   margin: 0 auto;
-  color: #56ccf2; /* Light blue for forecast icons */
+  color: #56ccf2;
 }
